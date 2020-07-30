@@ -1,0 +1,42 @@
+.transferencias {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background: #1b6ca8;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+.transferencias h1 {
+  margin-left: 40%;
+  color: #fce8d5;
+}
+.cuentas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cuentas p {
+  color: #fce8d5;
+}
+.cuentas input {
+  height: 30px;
+}
+.transferir {
+  margin-left: 45%;
+  background: #0a97b0;
+  width: 10%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transferir p {
+  color: #fce8d5;
+}
+.transferir:hover {
+  cursor: pointer;
+}
+.transferir:active {
+  background: #ff5722;
+}
